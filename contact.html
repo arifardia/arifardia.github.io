@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
 		<title>Contact | Arif Ardiansyah</title>
- </head>
+</head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li class="toggle-container">
+                <button id="dark-mode-toggle">🌙</button>
+            </li> -->
+        </ul>
+    </nav>
 	<h1>Contact</h1>
 	<p>Mau tau lebih banyak tentangku? Kirimi aku pesan dengan mengisi form dibawah ini</p>
-    <form>
+    <form class="formulir">
         <label for="name">Nama:</label><br>
-        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required><br><br>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" ><br><br>
 
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required><br><br>
@@ -18,17 +29,11 @@
         <label for="message">Pesan:</label><br>
         <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda" required></textarea><br><br>
 
-        <button type="submit">Kirim</button>
+        <button type="submit">kirim</button>
     </form>
-            
-    <h4>Halaman lain</h4>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="about.html">About Me</a>
-        </li>
-    </ul>
+    
+    <footer>
+        <p>made in love by Arif Ardiansyah</p>
+    </footer>
 </body>
 </html>
