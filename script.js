@@ -1,9 +1,9 @@
-Swal.fire({
-    title: "Yo!",
-    text: "Welcome wonderer",
-    icon: "info",
-    confirmButtonText: "Mulai Jelajah",
-  });
+// Swal.fire({
+//     title: "Yo!",
+//     text: "Welcome wonderer",
+//     icon: "info",
+//     confirmButtonText: "Mulai Jelajah",
+//   });
   
   function gotolib() {
     Swal.fire({
@@ -27,3 +27,5 @@ Swal.fire({
       }
     });
   }
+
+

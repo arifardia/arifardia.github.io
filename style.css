@@ -1,9 +1,8 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    padding: 0;
     display: grid;
     min-height: 100vh;
+    background-color: aquamarine;
 }
 
 /* card */
@@ -14,49 +13,11 @@ body {
     margin: 5%;
 }
 
-/* Navbar */
-.navbar ul {    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.navbar li {
-    float: left;
-}
-
-.navbar li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar li a:hover {
-    background-color: #111;
-}
-
 /* main */
 
 h1 {
     color: sienna;
     text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-.formulir {
-    margin: 50px;
-}
-
-/* footer */
-footer {
-    background-color: #333;
 }
 
 footer p {
@@ -76,32 +37,3 @@ input, textarea {
     border-radius: 4px;
     box-sizing: border-box;
   }
-
-  /* table */
-  table {
-    border-radius: 8px;
-    margin: 5%;
-  }
-
-  /* button */
-  .animated-button {
-    padding: 15px 30px;
-    background: linear-gradient(45deg, #333, #333);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    margin: 8%;
-}
-
-.animated-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-    background: linear-gradient(45deg, #212931, #34414e);
-    background: linear-gradient(45deg, #212931, );
-}
