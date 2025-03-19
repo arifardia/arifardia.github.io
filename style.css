@@ -6,6 +6,13 @@ body {
     min-height: 100vh;
 }
 
+/* card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(3, 3, 3, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 5%;
+}
 
 /* Navbar */
 .navbar ul {    
@@ -79,7 +86,7 @@ input, textarea {
   /* button */
   .animated-button {
     padding: 15px 30px;
-    background: linear-gradient(45deg, #212931, #34414e);
+    background: linear-gradient(45deg, #333, #333);
     color: white;
     border: none;
     border-radius: 8px;
@@ -98,9 +105,3 @@ input, textarea {
     background: linear-gradient(45deg, #212931, #34414e);
     background: linear-gradient(45deg, #212931, );
 }
-
-/* dark mode */
-/* .dark-mode {
-    background-color: #333;
-    color: white;
-} */
