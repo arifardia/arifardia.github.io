@@ -8,14 +8,17 @@
     <title>Home | Arif Ardiansyah</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-success">
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Library</a>
+          <a class="navbar-brand text-white" href="index.html">
+            <img src="books.png" alt="Logo" height="40">
+            Library
+        </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
               </li>
@@ -30,20 +33,20 @@
         </div>
       </nav>
 
-      <div class="card">
+      <div class="card m-4 shadow border-0">
         <div class="card-body">
             <h1>Hello!</h1>
-            <p>Website ini dibuat untuk memenuhi tugas mata kuliah Pengembangan Web Perpustakaan, lihat halaman lainnya untuk mengetahui lebih banyak tentang konten yang ada</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sapiente, quos accusantium, repellendus cum dicta cupiditate ipsa facere aliquam ipsam quis vitae neque officiis laboriosam? Sapiente maxime qui cumque nobis.</p>
+            <p>Perkenalkan, saya Arif Ardiansyah, dan ini adalah website perpustakaan saya. Website ini dibuat untuk memenuhi tugas mata kuliah Pengembangan Web Perpustakaan, lihat halaman lainnya untuk mengetahui lebih banyak tentang konten yang ada.</p>
 
-            <button type="button" class="btn btn-primary btn-lg" id="libraryButton" onclick="gotolib()">
+            <div class="text-center"><button type="button" class="btn btn-outline-info btn-lg " id="libraryButton" onclick="gotolib()">
                 Ayo Berkunjung ke Perpustakaan USU
-            </button>
+            </button></div>
+            
         </div>
       </div>
 
-    <footer class="bg-success text-white">
-        <p>&copy; 2025 Arif Ardiansyah, 2025</p>
+    <footer class="bg-success text-white fixed-bottom">
+        <p>&copy; 2025 Arif Ardiansyah</p>
     </footer>
 </body>
 
